@@ -28,4 +28,19 @@ else{
 let w = 0 || "" || 2 || undefined || true || false;
 console.log(w);
 
-for ()
+for (let i =0; i<2;i++)
+{
+    console.log(i);
+}
+let j = 0;
+while(j<2)
+{
+    console.log(j);
+    j++;
+}
+do
+{
+    console.log(j);
+    j++;
+}
+while(j<4);

@@ -13,6 +13,7 @@ console.log(a4);
 
 //alert(null || 2 && 3 || 4);
 
+
 let s = [1,2,3];
 let s2 = [1,2,3];
 console.log(s==s2);

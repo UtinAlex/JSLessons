@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*ширина и высота задаётся блоку, а не складывается из контент мргин падинг бордер*/
+}
+body {
+    height: 670px;
+    background: url(../img/apple.jpg) center no-repeat;
+    -webkit-background-size: cover; /*размеры фонового изображения фон с избытком покрывал блок-контейнер*/
+    background-size: cover; /*масштабирует по размеру блока*/
+    padding-top: 180px;
+    font-family: "Cuprum"
+}
+header {
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0,0,0, .5);
+    padding-top: 20px;
+}
+.menu {
+    list-style-type: none; /*убирает маркеры из списке*/
+    display: flex; /*создает флекс элемент*/
+    justify-content: space-around; /* распределение пространства между элементами*/
+    align-items: flex-end; /*выравнивание к низу (верху, центру)*/
+}
+.menu-item {
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    cursor: pointer; 
+    box-shadow: 0px 0px 20px  rgba(256,256,256,.4); /*тень*/
+}
+.column {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    margin-left: -4px;
+    min-height: 500px; 
+}
+.title {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+}
+.adv {
+    margin: 0 auto;
+    height: 100px;
+    margin-top: 50px;
+    padding-top: 30px;
+    width: 300px;
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid black;
+}
+.prompt {
+    margin: 0 auto;
+    height: 200px;
+    margin-top: 50px;
+    padding: 20px;
+    width: 400px;
+    background-color: rgba(0,0,0, .7);
+    text-align: center;
+    color: #fff;
+}
